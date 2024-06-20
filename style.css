@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Title section styling */
+.title h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Questions section styling */
+.questions {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questions h4 {
+    color: #666;
+}
+
+.questions img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Result section styling */
+.resultButton {
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+.answers {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+
+}
+.answers p {
+    margin-bottom: auto;
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+.answerChoices {
+    display: flex;
+}
+.result {
+    display: none;
+}
+.result .JoJoV, p{
+    text-align: center;
+}
